@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Masala House.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b955eaf29b.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".btn-learn-more").click(function () {
+                $(this).siblings(".more-info").slideToggle();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <h1 class="logo">Indian Masala House</h1>
+                <ul class="menu-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#chef">Chef Profile</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <button class="btn">BOOK A TABLE</button>
+                </ul>
+            </div>
+        </nav>
+        <section class="home-container">
+            <div class="home" id="home">
+                <p>ENJOY YOUR HEALTHY DELICIOUS MEAL</p>
+                <h1>Treat Yourself</h1>
+                <p>Delish is a culinary destination that tantalizes your taste buds with an array of mouthwatering
+                    flavors. Whether you're craving a savory meal or a sweet treat, Delish
+                    offers a
+                    diverse menu that caters to every culinary preference.</p>
+                <p>Savor the Flavor at Delish</p>
+            </div>
+        </section>
+    </header>
+
+    <div class="container food-container">
+        <section class="food">
+            <div class="menu">
+                <p class="text-gray">WELCOME WITH</p>
+                <h1>Popular <span class="highlight">Foods</span></h1>
+                <p class="text-gray">FOR</p>
+                <ul class="menu-items1">
+                    <li><i class="fa-solid fa-mug-hot"></i> Breakfast</li>
+                    <li><i class="fa-solid fa-plate-wheat"></i> Lunch</li>
+                    <li><i class="fa-solid fa-pizza-slice"></i> Dinner</li>
+                    <li><i class="fa-solid fa-martini-glass-citrus"></i> Drinks</li>
+                </ul>
+            </div>
+    </div>
+    <button class="menubtn" onclick="loadData()">Click to Get Menu</button>
+    <div class="food-item-container" id="menu">
+        <table>
+            <thead>
+                <tr>
+                    <th>Menu ID</th>
+                    <th>Food Category</th>
+                    <th>Food Item Name</th>
+                    <th>Food Ingredient</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="menuTableBody"></tbody>
+        </table>
+    </div>
+    </section>
+    <hr class="abc" />
+    <h1>Chef Profile </h1>
+    <section class="Chef Chef-container" id="chef">
+        <div class="chef-profile">
+            <div class="chef-image">
+                <img src="./chef1.avif" alt="Chef 1 Name">
+            </div>
+            <div class="chef-info">
+                <h2>Chef John Smith</h2>
+                <p class="specialty">Specialty: Italian Cuisine</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum gravida
+                    magna, eget ullamcorper nisi fermentum vel.</p>
+                <button class="btn-learn-more">Learn More</button>
+                <div class="more-info">
+                    <p><strong>Experience:</strong> Over 10 years</p>
+                    <p><strong>Awards:</strong> Best Chef Award 2018, 2020</p>
+                    <p><strong>Education:</strong> Culinary Institute of America</p>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="chef-profile">
+            <div class="chef-image">
+                <img src="./chef3.jpg" alt="Chef 2 Name">
+            </div>
+            <div class="chef-info">
+                <h2>Chef Emily Rodriguez</h2>
+                <p class="specialty">Specialty: French Cuisine</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum gravida
+                    magna, eget ullamcorper nisi fermentum vel.</p>
+                <button class="btn-learn-more">Learn More</button>
+                <div class="more-info">
+                    <p><strong>Experience:</strong> Over 15 years</p>
+                    <p><strong>Awards:</strong> Michelin Star Chef 2017</p>
+                    <p><strong>Education:</strong> Le Cordon Bleu Paris</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="chef-profile">
+            <div class="chef-image">
+                <img src="./chef2.jpg" alt="Chef 2 Name">
+            </div>
+            <div class="chef-info">
+                <h2>Chef Raja's Spice Haven</h2>
+                <p class="specialty">Specialty: French Cuisine</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum gravida
+                    magna, eget ullamcorper nisi fermentum vel.</p>
+                <button class="btn-learn-more">Learn More</button>
+                <div class="more-info">
+                    <p><strong>Experience:</strong> Over 15 years</p>
+                    <p><strong>Awards:</strong> Michelin Star Chef 2017</p>
+                    <p><strong>Education:</strong> Le Cordon Bleu Paris</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="chef-profile">
+            <div class="chef-image">
+                <img src="./chef4.jpg" alt="Chef 2 Name">
+            </div>
+            <div class="chef-info">
+                <h2>Chef Vikram's Masala Magic</h2>
+                <p class="specialty">Specialty: French Cuisine</p>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vestibulum gravida
+                    magna, eget ullamcorper nisi fermentum vel.</p>
+                <button class="btn-learn-more">Learn More</button>
+                <div class="more-info">
+                    <p><strong>Experience:</strong> Over 15 years</p>
+                    <p><strong>Awards:</strong> Michelin Star Chef 2017</p>
+                    <p><strong>Education:</strong> Le Cordon Bleu Paris</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <hr class="abc" />
+    <section>
+        <h1>Contact Us</h1>
+        <div class="container contact-us" id="contact">
+            <form action="#" method="POST" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+    <hr class="abc" />
+    <h1>About Us</h1>
+    <section id="about">
+
+
+        <div class="about-us-card">
+            <!-- Add your restaurant image here -->
+            <img class="restaurant-image" src="./about1.jpg" width="260px" style="margin-left: 30%;"
+                alt="Restaurant Image">
+            <img class="restaurant-image" src="./about2.jpg" width="300px" alt="Restaurant Image">
+            <div class="about-us-content">
+                <p>Welcome to our authentic Indian restaurant where we serve traditional Indian cuisine with a modern
+                    twist. Our restaurant is committed to providing you with the best dining experience by offering
+                    delicious food, attentive service, and a cozy atmosphere.</p>
+
+                <h2>Our Story</h2>
+                <p>Our journey began with a passion for Indian food and a desire to share its rich flavors with the
+                    world. Inspired by the diverse culinary traditions of India, we embarked on a mission to create a
+                    menu that celebrates the vibrant tastes and aromas of our homeland.</p>
+
+                <h2>Our Mission</h2>
+                <p>At our restaurant, we strive to delight our customers with every dish we serve. We use only the
+                    finest ingredients and traditional cooking techniques to ensure that each meal is a culinary
+                    masterpiece. Whether you're a seasoned curry connoisseur or new to Indian cuisine, we guarantee an
+                    unforgettable dining experience that will keep you coming back for more.</p>
+
+                <h2>Meet Our Chef</h2>
+                <p>Our head chef, Chef Patel, brings years of experience and expertise to our kitchen. Trained in the
+                    art of Indian cooking, Chef Patel combines traditional recipes with modern innovations to create
+                    dishes that are both authentic and innovative. With his culinary skills and passion for food, Chef
+                    Patel ensures that every bite is a taste of India.</p>
+
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

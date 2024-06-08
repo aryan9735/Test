@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <dish>
+        <Menuid>1</Menuid>
+        <FoodCategory>Appetizer</FoodCategory>
+        <FoodItemName>Pani Puri</FoodItemName>
+        <FoodIngredient>Crushed puris, boiled potatoes, tamarind water,spices</FoodIngredient>
+        <Price>50.00 Rs</Price>
+        <Qty>20</Qty>
+    </dish>
+    <dish>
+        <Menuid>2</Menuid>
+        <FoodCategory>Main Course</FoodCategory>
+        <FoodItemName>Paneer Tikka</FoodItemName>
+        <FoodIngredient>Paneer (cottage cheese), marinated and grilled</FoodIngredient>
+        <Price>180.00 Rs</Price>
+        <Qty>15</Qty>
+    </dish>
+    <dish>
+        <Menuid>3</Menuid>
+        <FoodCategory>Side Dish</FoodCategory>
+        <FoodItemName>Aloo Gobi</FoodItemName>
+        <FoodIngredient>Potatoes, cauliflower, spices</FoodIngredient>
+        <Price>120.00 Rs</Price>    
+        <Qty>12</Qty>
+    </dish>
+    <dish>
+        <Menuid>4</Menuid>
+        <FoodCategory>Main Course</FoodCategory>
+        <FoodItemName>Palak Paneer</FoodItemName>
+        <FoodIngredient>Spinach, paneer, spices</FoodIngredient>
+        <Price>200.00 Rs</Price>
+        <Qty>18</Qty>
+    </dish>
+ <dish>
+ <Menuid>5</Menuid>
+ <FoodCategory>Appetizer</FoodCategory>
+ <FoodItemName>Samosa</FoodItemName>
+ <FoodIngredient>Spiced potatoes, peas, wrapped in a crispy dough</FoodIngredient>
+ <Price>30.00 Rs</Price>
+ <Qty>22</Qty>
+ </dish>
+ <dish>
+ <Menuid>6</Menuid>
+ <FoodCategory>Side Dish</FoodCategory>
+ <FoodItemName>Dal Tadka</FoodItemName>
+ <FoodIngredient>Lentils, tempered with spices</FoodIngredient>
+ <Price>80.00 Rs</Price>
+ <Qty>16</Qty>
+ </dish>
+ <dish>
+ <Menuid>7</Menuid>
+ <FoodCategory>Main Course</FoodCategory>
+ <FoodItemName>Vegetable Biryani</FoodItemName>
+ <FoodIngredient>Mixed vegetables, basmati rice, aromatic spices</FoodIngredient>
+ <Price>220.00 Rs</Price>
+ <Qty>14</Qty>
+ </dish>
+ <dish>
+ <Menuid>8</Menuid>
+ <FoodCategory>Appetizer</FoodCategory>
+ <FoodItemName>Dhokla</FoodItemName>
+ <FoodIngredient>Fermented steamed cake made from rice and chickpea
+flour</FoodIngredient>
+ <Price>40.00 Rs</Price>
+ <Qty>10</Qty>
+ </dish>
+ <dish>
+ <Menuid>9</Menuid>
+ <FoodCategory>Main Course</FoodCategory>
+ <FoodItemName>Rajma Chawal</FoodItemName>
+ <FoodIngredient>Red kidney beans, rice</FoodIngredient>
+ <Price>150.00 Rs</Price>
+ <Qty>12</Qty>
+
+ </dish>
+ <dish>
+ <Menuid>10</Menuid>
+ <FoodCategory>Side Dish</FoodCategory>
+ <FoodItemName>Bhindi Masala</FoodItemName>
+ <FoodIngredient>Okra, spices</FoodIngredient>
+ <Price>90.00 Rs</Price>
+    <Qty>15</Qty>
+ </dish>
+</menu>

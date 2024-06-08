@@ -1,0 +1,394 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/* utility class */
+.btn {
+    background-color: #ff2828c9;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    transition: background-color 300ms ease-in-out;
+}
+
+.highlight {
+    color: #ff4646;
+}
+
+.text-gray {
+    color: #525252;
+}
+
+.container {
+    width: 1024px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background: url('./1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines {
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+}
+
+.logo {
+    cursor: pointer;
+    color: red;
+    letter-spacing: 5px;
+    text-shadow: 2px 1px #ffffff, 2px 1px #ffffff;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items li {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+}
+
+.menu-items li:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 255, 255);
+    transition: all 300ms ease-in-out;
+}
+
+.menu-items li a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+
+.menu-items li a:hover {
+    color: rgb(255, 0, 0);
+    transition: color 300ms ease-in-out;
+}
+
+.menu-items1 {
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+}
+
+.menu-items1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 60px;
+}
+
+
+/* home  */
+.home-container {
+    /* width: 100vw; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.home {
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.home h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.home p {
+    text-align: center;
+    text-shadow: 3px 2px 20px #000000, 3px 2px 20px #000000;
+    padding: 0 5rem;
+}
+
+.food-container {
+    width: 100%;
+    background: #ffdec0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.food {
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    padding: 3rem 1rem;
+    gap: 1rem;
+}
+
+.menu {
+    width: 320px;
+}
+
+.menu h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.menu ul {
+    padding: 2rem 0;
+}
+
+.menu ul li {
+    margin: 5px 0;
+    padding: 10px 60px;
+    font-size: 1.5rem;
+    background-color: white;
+    color: #ff4646;
+    border-radius: 50px;
+}
+
+.food-item-container {
+    width: 704px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.food-item {
+    width: 100%;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.image-wrapper img {
+    position: inherit;
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.image-wrapper img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.food-item h4 {
+    letter-spacing: 2px;
+}
+
+table {
+    width: 300%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #e44d26;
+    color: white;
+}
+
+td {
+    background-color: #fff;
+    color: #333;
+}
+
+.menubtn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.chef-profile {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.chef-image {
+    margin-right: 20px;
+}
+
+.chef-image img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.chef-info {
+    flex-grow: 1;
+}
+
+.more-info {
+    display: none;
+}
+
+.btn-learn-more {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-learn-more:hover {
+    background-color: #45a049;
+}
+.abc{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Chef-container {
+    width: 100%;
+    background: #ffdec0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .menubtn:hover {
+    background-color: white ;
+    color: red;
+} */
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 400%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 0px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.contact-us{
+    width: 100%;
+    background: black;
+}
+.contact-form{
+    margin: 60px;
+}
+
+.about-us-card {
+    border: 4px solid #e44d26;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    }
+    .restaurant-image {
+    max-width: 100%;
+    margin-block: 50px;
+    margin-inline: 10px;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 4px 10px black;
+    border-radius: 20px;
+    }
+    .restaurant-image:hover{
+    scale: 1.2;
+    transition-duration: 1s;
+    }
+    .about-us-content {
+    padding: 20px;
+    }
+    h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #e44d26;
+    }
+    p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    }
